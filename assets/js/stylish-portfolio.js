@@ -8,7 +8,7 @@
   });
 
   $('.truncated').hide()                       
-      .after('<a href="#">more...</a>') 
+      .after('<a href="#term">more...</a>') 
       .next().on('click', function(){          
       $(this).toggleClass('icon-minus-sign')   
           .prev().toggle();                    
