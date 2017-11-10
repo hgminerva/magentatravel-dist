@@ -274,7 +274,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.p1.html":
 /***/ (function(module, exports) {
 
-module.exports = "Package1 - Payment processing still on going.  Come back next time. <a href=\"/\">Back</a>"
+module.exports = "<!-- Packages -->\n<section id=\"packages\" class=\"packages bg-primary text-white\">\n<div class=\"container\">\n    <div class=\"row text-center\">\n    <div class=\"col-lg-10 mx-auto\">\n        <h2>7 Nights at Calypso Cay ($698)</h2>\n        <hr class=\"small\">\n        <div class=\"row\">\n        <div class=\"col-sm-6\">\n            <div class=\"package-item\">\n            <h4>\n                <img class=\"img-portfolio img-fluid\" src=\"assets/img/package01-big.jpg\">\n            </h4>\n            </div>\n        </div>\n        <div class=\"col-sm-6\">\n            <div class=\"package-item\">\n            <p>Calypso Cay Resort is located 7 miles away from Walt Disney World® Resort, and down the road from Universal Orlando®</p>\n            <p>3 Day/2 night Carnival Cruise Freeport Bahamas/Port of Call Ft Lauderdale</p>\n            <p>7 day Alamo Rental Car/ Economy Class. Does not include auto insurance</p>\n            <a href=\"/package1\" class=\"btn btn-dark\">Purchase Now (Payment gateway still on process!)</a>\n            <a href=\"/#packages\" class=\"btn btn-light\">Back</a>\n            </div>\n        </div>\n        </div>\n        <!-- /.row (nested) -->\n    </div>\n    <!-- /.col-lg-10 -->\n    </div>\n    <!-- /.row -->\n</div>\n<!-- /.container -->\n</section>"
 
 /***/ }),
 
@@ -299,7 +299,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.p2.html":
 /***/ (function(module, exports) {
 
-module.exports = "Package2 - Payment processing still on going.  Come back next time. <a href=\"/\">Back</a>"
+module.exports = "<!-- Packages -->\n<section id=\"packages\" class=\"packages bg-primary text-white\">\n    <div class=\"container\">\n        <div class=\"row text-center\">\n        <div class=\"col-lg-10 mx-auto\">\n            <h2>7 Nights at Inlet - New Smyrna ($798)</h2>\n            <hr class=\"small\">\n            <div class=\"row\">\n            <div class=\"col-sm-6\">\n                <div class=\"package-item\">\n                <h4>\n                    <img class=\"img-portfolio img-fluid\" src=\"assets/img/package02-big.jpg\">\n                </h4>\n                </div>\n            </div>\n            <div class=\"col-sm-6\">\n                <div class=\"package-item\">\n                <p>Located in New Smyrna Beach, Florida is a luxurious ocean front condominium located on Central Florida’s east coast, 15 miles</p>\n                <p>3 Day/2 night Carnival Cruise Freeport Bahamas/Port of Call Ft Lauderdale</p>\n                <p>7 day Alamo Rental Car/ Economy Class. Does not include auto insurance</p>\n                <a href=\"/package2\" class=\"btn btn-dark\">Purchase Now (Payment gateway still on process!)</a>\n                <a href=\"/#packages\" class=\"btn btn-light\">Back</a>\n                </div>\n            </div>\n            </div>\n            <!-- /.row (nested) -->\n        </div>\n        <!-- /.col-lg-10 -->\n        </div>\n        <!-- /.row -->\n    </div>\n    <!-- /.container -->\n</section>"
 
 /***/ }),
 
@@ -324,7 +324,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.p3.html":
 /***/ (function(module, exports) {
 
-module.exports = "Package3 - Payment processing still on going.  Come back next time. <a href=\"/\">Back</a>"
+module.exports = "<!-- Packages -->\n<section id=\"packages\" class=\"packages bg-primary text-white\">\n    <div class=\"container\">\n        <div class=\"row text-center\">\n        <div class=\"col-lg-10 mx-auto\">\n            <h2>7 Nights at Saratoga Resort ($898)</h2>\n            <hr class=\"small\">\n            <div class=\"row\">\n            <div class=\"col-sm-6\">\n                <div class=\"package-item\">\n                <h4>\n                    <img class=\"img-portfolio img-fluid\" src=\"assets/img/package03-big.jpg\">\n                </h4>\n                </div>\n            </div>\n            <div class=\"col-sm-6\">\n                <div class=\"package-item\">\n                <p>Spike up your getaway to the theme-park capital of the world with a tropical resort at the new Best Western</p>\n                <p>3 Day/2 night Carnival Cruise Freeport Bahamas/Port of Call Ft Lauderdale</p>\n                <p>7 day Alamo Rental Car/ Economy Class. Does not include auto insurance</p>\n                <a href=\"/package3\" class=\"btn btn-dark\">Purchase Now (Payment gateway still on process!)</a>\n                <a href=\"/#packages\" class=\"btn btn-light\">Back</a>\n                </div>\n            </div>\n            </div>\n            <!-- /.row (nested) -->\n        </div>\n        <!-- /.col-lg-10 -->\n        </div>\n        <!-- /.row -->\n    </div>\n    <!-- /.container -->\n</section>"
 
 /***/ }),
 
