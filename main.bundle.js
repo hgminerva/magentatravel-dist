@@ -28,12 +28,14 @@ webpackEmptyAsyncContext.id = "../../../../../src/$$_lazy_route_resource lazy re
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__team_team_component__ = __webpack_require__("../../../../../src/app/team/team.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__career_career_component__ = __webpack_require__("../../../../../src/app/career/career.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__packages_packages_component__ = __webpack_require__("../../../../../src/app/packages/packages.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__purchase_purchase_component__ = __webpack_require__("../../../../../src/app/purchase/purchase.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -48,6 +50,10 @@ var routes = [
     {
         path: 'career',
         component: __WEBPACK_IMPORTED_MODULE_4__career_career_component__["a" /* CareerComponent */],
+    },
+    {
+        path: 'purchase',
+        component: __WEBPACK_IMPORTED_MODULE_6__purchase_purchase_component__["a" /* PurchaseComponent */],
     },
     {
         path: 'packages/:id',
@@ -166,7 +172,7 @@ var AppComponentHome = (function () {
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<router-outlet></router-outlet>"
+module.exports = "<nav class=\"navbar fixed-top navbar-light bg-faded mynavbar\">\n    <a class=\"navbar-brand\" href=\"/\"><img src=\"/assets/img/magentatravel-small.png\"></a>\n    <div id=\"navbarNav\">\n        <ul class=\"inlineList\" style=\"padding:0px\">\n            <li>\n                <a class=\"nav-link\" href=\"/\" style=\"padding:7px\"><font color=\"black\">HOME</font></a>\n            </li>\n            <li>\n                <a class=\"nav-link\" href=\"/#about\" style=\"padding:7px\"><font color=\"black\">ABOUT US</font></a>\n            </li>\n            <li>\n                <div class=\"dropdown\">\n                    <button type=\"button\" class=\"btn dropdown-toggle transparent-button\" data-toggle=\"dropdown\">\n                        <font color=\"black\">PACKAGES</font>\n                    </button>\n                    <div class=\"dropdown-menu\">\n                        <a class=\"dropdown-item\" href=\"/#usf\">Florida Theme Park Getaway</a>\n                        <a class=\"dropdown-item\" href=\"/#mexico\">Mexico Cruise</a>\n                        <a class=\"dropdown-item\" href=\"/#lasvegas\">Ultimate Destinations</a>\n                        <a class=\"dropdown-item\" href=\"/#cottages\">Timeout Vacations</a>\n                        <a class=\"dropdown-item\" href=\"/#disney\">California Theme Park Getaway</a>\n                        <a class=\"dropdown-item\" href=\"/#beach\">Dominican Republic Cruise</a>\n                    </div>\n                </div>\n            </li>\n            <li>\n                <a class=\"nav-link\" href=\"/team\" style=\"padding:7px\"><font color=\"black\">TEAM</font></a>\n            </li>\n            <li>\n                <a class=\"nav-link\" href=\"/career\" style=\"padding:7px\"><font color=\"black\">CAREER</font></a>\n            </li>\n            <li>\n                <a class=\"nav-link\" href=\"/purchase\" style=\"padding:7px\"><font color=\"black\">PURCHASE</font></a>\n            </li>\n            <li>\n                <a class=\"nav-link\" href=\"/#contact\" style=\"padding:7px\"><font color=\"black\">CONTACT US</font></a>\n            </li>\n        </ul>\n    </div>\n</nav>\n\n<router-outlet></router-outlet>\n\n<!-- Footer -->\n<footer>\n    <div class=\"container\">\n        <div class=\"row\">\n        <div class=\"col-lg-10 mx-auto text-center\">\n            <h4>\n            <strong><a href=\"/\">Magentatravel.us</a></strong>\n            </h4>\n            <p>2713 Heritage Lane \n            <br>Bradenton FL 34209</p>\n            <ul class=\"list-unstyled\">\n            <li>\n                <i class=\"fa fa-phone fa-fw\"></i>\n                941 201 7680</li>\n            <li>\n                <i class=\"fa fa-envelope-o fa-fw\"></i>\n                <a href=\"mailto:sales@magentatravel.us\">sales@magentatravel.us</a>\n            </li>\n            </ul>\n            <br>\n            <ul class=\"list-inline\">\n            <li class=\"list-inline-item\">\n                <a href=\"#\">\n                <i class=\"fa fa-facebook fa-fw fa-3x\"></i>\n                </a>\n            </li>\n            <li class=\"list-inline-item\">\n                <a href=\"#\">\n                <i class=\"fa fa-twitter fa-fw fa-3x\"></i>\n                </a>\n            </li>\n            <li class=\"list-inline-item\">\n                <a href=\"#\">\n                <i class=\"fa fa-instagram fa-fw fa-3x\"></i>\n                </a>\n            </li>\n            </ul>\n            <hr class=\"small\">\n            <p class=\"text-muted\">Copyright &copy; Magentatravel.us 2017</p>\n        </div>\n        </div>\n    </div>\n    <a id=\"to-top\" href=\"#top\" class=\"btn btn-dark btn-lg js-scroll-trigger\">\n        <i class=\"fa fa-chevron-up fa-fw fa-1x\"></i>\n    </a>\n</footer>"
 
 /***/ }),
 
@@ -216,12 +222,14 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__team_team_component__ = __webpack_require__("../../../../../src/app/team/team.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__career_career_component__ = __webpack_require__("../../../../../src/app/career/career.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__packages_packages_component__ = __webpack_require__("../../../../../src/app/packages/packages.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__purchase_purchase_component__ = __webpack_require__("../../../../../src/app/purchase/purchase.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -242,7 +250,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__app_component_home__["a" /* AppComponentHome */],
                 __WEBPACK_IMPORTED_MODULE_7__team_team_component__["a" /* TeamComponent */],
                 __WEBPACK_IMPORTED_MODULE_8__career_career_component__["a" /* CareerComponent */],
-                __WEBPACK_IMPORTED_MODULE_9__packages_packages_component__["a" /* PackagesComponent */]
+                __WEBPACK_IMPORTED_MODULE_9__packages_packages_component__["a" /* PackagesComponent */],
+                __WEBPACK_IMPORTED_MODULE_10__purchase_purchase_component__["a" /* PurchaseComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -413,6 +422,43 @@ var PackagesComponent = (function () {
             __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]])
     ], PackagesComponent);
     return PackagesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../../../../src/app/purchase/purchase.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<section id=\"purchase\" class=\"purchase\">\n    <div class=\"container text-center package-text\">\n        <br>\n        <br>\n        <br>\n        <br>\n        <br>\n        <h2>PURCHASE</h2>    \n        <br>\n        <br>\n        <br>\n        <br>\n    </div>\n</section>\n\n<br>\n<br> \n\n<div class=\"table-responsive container table-bordered\">\n    <table class=\"table\">\n        <tr>\n            <td><strong>Package</strong></td>\n            <td><strong>Price</strong></td>\n            <td><strong>Purchase</strong></td>\n        </tr>    \n        <tr>\n            <td>Florida Theme Park Getaway</td>\n            <td>$295</td>\n            <td><a href=\"/packages/1\" class=\"btn btn-success\">Purchase</a></td>\n        </tr>    \n        <tr>\n            <td>Mexico Cruise</td>\n            <td>$495</td>\n            <td><a href=\"/packages/2\" class=\"btn btn-success\">Purchase</a></td>\n        </tr> \n        <tr>\n            <td>Ultimate Destinations</td>\n            <td>$325</td>\n            <td><a href=\"/packages/3\" class=\"btn btn-success\">Purchase</a></td>\n        </tr>         \n        <tr>\n            <td>Timeout Vacations</td>\n            <td>$335</td>\n            <td><a href=\"/packages/4\" class=\"btn btn-success\">Purchase</a></td>\n        </tr> \n        <tr>\n            <td>California Theme Park Getaway</td>\n            <td>$295</td>\n            <td><a href=\"/packages/5\" class=\"btn btn-success\">Purchase</a></td>\n        </tr> \n        <tr>\n            <td>Dominican Republic Cruise</td>\n            <td>$495</td>\n            <td><a href=\"/packages/6\" class=\"btn btn-success\">Purchase</a></td>\n        </tr> \n    </table>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/purchase/purchase.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PurchaseComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var PurchaseComponent = (function () {
+    function PurchaseComponent() {
+        this.title = 'purchase';
+    }
+    PurchaseComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-root',
+            template: __webpack_require__("../../../../../src/app/purchase/purchase.component.html")
+        })
+    ], PurchaseComponent);
+    return PurchaseComponent;
 }());
 
 
